@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1700.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedRoseRefactor", "GildedRoseRefactor\GildedRoseRefactor.csproj", "{014CD7A8-574A-44C7-B8A9-E8E9B32DA49E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuildedRoseTests", "GuildedRoseTests\GuildedRoseTests.csproj", "{A8BB046B-8548-403A-99C2-32BBEC0C3FE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{234BD832-758F-4917-8603-2908B7855F6D}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{014CD7A8-574A-44C7-B8A9-E8E9B32DA49E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{014CD7A8-574A-44C7-B8A9-E8E9B32DA49E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{014CD7A8-574A-44C7-B8A9-E8E9B32DA49E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{014CD7A8-574A-44C7-B8A9-E8E9B32DA49E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8BB046B-8548-403A-99C2-32BBEC0C3FE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8BB046B-8548-403A-99C2-32BBEC0C3FE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8BB046B-8548-403A-99C2-32BBEC0C3FE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8BB046B-8548-403A-99C2-32BBEC0C3FE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {479A478B-8CD6-4573-8867-35DA87FFAB18}
+	EndGlobalSection
+EndGlobal

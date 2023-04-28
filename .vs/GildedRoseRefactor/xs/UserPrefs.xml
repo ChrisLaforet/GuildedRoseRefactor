@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{014CD7A8-574A-44C7-B8A9-E8E9B32DA49E}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.GuildedRoseTests FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="README.md">
+    <Files>
+      <File FileName="GildedRoseRefactor/Program.cs" Line="7" Column="27" />
+      <File FileName="GuildedRoseTests/UnitTest1.cs" Line="11" Column="1" />
+      <File FileName="README.md" Line="69" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GildedRoseRefactor" expanded="True">
+            <Node name="Solution Items" expanded="True">
+              <Node name="/Users/chris/Development/dotnet/GildedRoseRefactor/README.md" selected="True" />
+            </Node>
+            <Node name="GildedRoseRefactor" expanded="True" />
+            <Node name="GuildedRoseTests" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="GildedRoseRefactor" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.GildedRoseRefactor FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
