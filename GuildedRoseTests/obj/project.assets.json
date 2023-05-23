@@ -1670,6 +1670,16 @@
         "build": {
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "GildedRoseRefactor/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/GildedRoseRefactor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GildedRoseRefactor.dll": {}
+        }
       }
     }
   },
@@ -5966,10 +5976,16 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "GildedRoseRefactor/1.0.0": {
+      "type": "project",
+      "path": "../GildedRoseRefactor/GildedRoseRefactor.csproj",
+      "msbuildProject": "../GildedRoseRefactor/GildedRoseRefactor.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "GildedRoseRefactor >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.1.0",
       "coverlet.collector >= 3.1.2",
       "xunit >= 2.4.1",
@@ -6000,7 +6016,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/chris/Development/dotnet/GildedRoseRefactor/GildedRoseRefactor/GildedRoseRefactor.csproj": {
+              "projectPath": "/Users/chris/Development/dotnet/GildedRoseRefactor/GildedRoseRefactor/GildedRoseRefactor.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

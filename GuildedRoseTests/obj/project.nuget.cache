@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "biiUSU6HyPHlLap3sfxM7ZLTSdTKasBpfegOfRUtjbtqmJq0WngXdRvy0t5cGLCj0+g4mOCusQwFwFwp23stLQ==",
+  "dgSpecHash": "l7170cldQsZgMZU1NiRKy/OOmL0y8n0Xx1oFkL/tb9vEcsS50gie+D2M8MprKqUduZKlL9IGAjvFIgFRIxlZYQ==",
   "success": true,
   "projectFilePath": "/Users/chris/Development/dotnet/GildedRoseRefactor/GuildedRoseTests/GuildedRoseTests.csproj",
   "expectedPackageFiles": [
