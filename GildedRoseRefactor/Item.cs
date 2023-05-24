@@ -1,6 +1,6 @@
 namespace GildedRose;
 
-public class Item
+public class Item           // leave this alone - property of the goblin in the corner - change this class at your peril!
 {
     public string Name { get; set; }
 
