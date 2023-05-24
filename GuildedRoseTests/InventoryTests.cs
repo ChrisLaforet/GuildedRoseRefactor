@@ -157,4 +157,14 @@ public class InventoryTests
         inventory.UpdateQuality();
         Assert.Equal(initialQuality - 2, item.Quality);
     }
+    
+    [Fact]
+    public void GivenInventory_WhenUpdateQuality_ThenConjuredQualityAgesTwiceAsFast()
+    {
+        var inventory = new Inventory();
+        var item = inventory.FindItem("Conjured Mana Cake");
+        var initialQuality = item.Quality;
+        inventory.UpdateQuality();
+        Assert.Equal(initialQuality - 2, item.Quality);
+    }
 }

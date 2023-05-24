@@ -1,6 +1,6 @@
 namespace GildedRose;
 
-public class DoubleAgingAfterSellInItem : NormalAgingItem
+public class DoubleAgingAfterSellInItem : SimpleAgingItem
 {
     public DoubleAgingAfterSellInItem(string name, int sellIn, int quality) : base(name, sellIn, quality) {}
 
@@ -9,7 +9,8 @@ public class DoubleAgingAfterSellInItem : NormalAgingItem
         base.UpdateQuality();
         if (Item.SellIn <= 0)
         {
-            Item.Quality = Item.Quality - 2;
+            var newQuality = Item.Quality - (base.rate * 2);
+            Item.Quality = newQuality >= 0 ? newQuality : 0;
         }
     }
 }
