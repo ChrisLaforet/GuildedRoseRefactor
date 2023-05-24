@@ -13,7 +13,8 @@ public class SimpleAgingItem : GuildedRoseItem
     {
         if (Item.SellIn > 0 && Item.Quality > 0)
         {
-            Item.Quality = Item.Quality - rate;
+            var newQuality = Item.Quality - rate;
+            Item.Quality = newQuality < 0 ? 0 : newQuality;
         }
         base.UpdateQuality();
     }
