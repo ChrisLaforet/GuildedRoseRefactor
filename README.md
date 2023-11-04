@@ -1,4 +1,10 @@
-﻿# Gilded Rose Refactoring Kata
+# Fork and practice on original Guilded Rose
+
+Below is the original readme from the project from https://github.com/NotMyself/GildedRose
+
+ ------------
+ 
+ # Gilded Rose Refactoring Kata
 
 Hi and welcome to team Gilded Rose. As you know, we are a small inn with a 
 prime location in a prominent city ran by a friendly innkeeper named 
