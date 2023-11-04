@@ -1,6 +1,6 @@
 # Fork and practice on original Guilded Rose
 
-Below is the original readme from the project from https://github.com/NotMyself/GildedRose
+Below is the original readme from the project from https://github.com/NotMyself/GildedRose which is licensed using MIT Licence.
 
  ------------
  
